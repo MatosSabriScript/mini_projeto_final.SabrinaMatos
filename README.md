@@ -1,6 +1,4 @@
-Aqui está um exemplo de `README.md` para o seu projeto, que detalha a estrutura, funcionalidade e instruções de uso:
 
----
 
 # 🚀 Mini Projeto de Gerenciamento de Usuários Temporários
 
@@ -140,6 +138,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, enviar P
 
 Este projeto está licenciado sob a licença MIT.
 
----
 
-Pronto! Agora você tem um `README.md` completo para o seu projeto.
