@@ -48,7 +48,7 @@ src/
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clon https://github.com/MatosSabriScript/mini_projeto_final.SabrinaMatos.git
    cd seu-repositorio
    ```
 
