@@ -109,7 +109,4 @@ Exemplo de resposta da API:
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, enviar PRs ou sugerir melhorias.
 
-## 📝 Licença
-
-Este projeto está licenciado sob a licença MIT.
 
