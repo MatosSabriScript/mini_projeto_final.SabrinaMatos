@@ -9,7 +9,7 @@ Este é um projeto desenvolvido em React que faz a conexão com uma API para exi
 - **Navegação suave**: Scroll automático para seções específicas da página.
 - **Integração com API**: Consome uma API para obter os dados dos usuários.
 
-```
+
 
 ## 🚀 Instalação e Execução
 
