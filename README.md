@@ -11,30 +11,7 @@ Este é um projeto desenvolvido em React que faz a conexão com uma API para exi
 - **Navegação suave**: Scroll automático para seções específicas da página.
 - **Integração com API**: Consome uma API para obter os dados dos usuários.
 
-## 📂 Estrutura do Projeto
-
-```bash
-src/
-├── components/
-│   ├── Header/
-│   │   └── Header.jsx
-│   ├── Section/
-│   │   └── Section.jsx
-│   ├── Card/
-│   │   └── Card.jsx
-├── pages/
-│   └── Home/
-│       └── Home.jsx
-├── App.jsx
-├── App.css
-└── index.js
 ```
-
-- **App.jsx**: O ponto de entrada do aplicativo, que apenas importa a página `Home`.
-- **Home.jsx**: A página principal que contém a lógica de renderização dos componentes e as chamadas à API.
-- **Header.jsx**: Exibe a introdução e o vídeo inicial, com botões para rolar até as diferentes seções da página.
-- **Section.jsx**: Um componente reutilizável que serve para criar seções de conteúdo.
-- **Card.jsx**: Um componente que exibe os detalhes de cada usuário.
 
 ## 🚀 Instalação e Execução
 
@@ -48,7 +25,7 @@ src/
 1. **Clone o repositório**:
 
    ```bash
-   git clon https://github.com/MatosSabriScript/mini_projeto_final.SabrinaMatos.git
+   git clone https://github.com/MatosSabriScript/mini_projeto_final.SabrinaMatos.git
    cd seu-repositorio
    ```
 
