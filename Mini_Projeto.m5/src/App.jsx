@@ -6,34 +6,33 @@ export function App() {
   const [trueUsers, setTrueUsers] = useState([]);  
   const [falseUsers, setFalseUsers] = useState([]);  
 
- 
-
   useEffect(() => {  
     fetch("http://localhost:5000/user")  
       .then((res) => res.json())  
       .then((data) => setDados(data.listPeople))  
       .catch((error) => console.error("Erro ao buscar dados da API", error));  
 
-    // Pegar os usuários com status true  
     fetch("http://localhost:5000/user/true")  
       .then((res) => res.json())  
       .then((data) => setTrueUsers(data.listPeopleTrue))  
       .catch((error) => console.error("Erro ao buscar usuários com status true", error));  
 
-    // Pegar os usuários com status false  
     fetch("http://localhost:5000/user/false")  
       .then((res) => res.json())  
       .then((data) => setFalseUsers(data.listPeopleFalse))  
       .catch((error) => console.error("Erro ao buscar usuários com status false", error));  
   }, []);  
 
-  // Função para scroll suave  
   const handleScroll = (id) => {  
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });  
   };  
 
   return (  
     <div>  
+      <video autoPlay loop muted>  
+        <source src="/video.mp4" type="video/mp4" />  
+        Your browser does not support the video tag.  
+      </video>  
       <section id="sobre">  
         <h1>Sobre a Uber 🚗</h1>  
         <p>  
