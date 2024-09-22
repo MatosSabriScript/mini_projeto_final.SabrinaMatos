@@ -4,7 +4,7 @@ Este é um projeto desenvolvido em React que faz a conexão com uma API para exi
 
 ## 📑 Funcionalidades
 
-- **Listagem de usuários**: Exibe uma lista de todos os usuários, diferenciando entre os que têm status "completo" e "incompleto".
+- **Listagem de usuários**: Exibe uma lista de todos os usuários, diferenciando entre os que têm status "true" e "false".
 - **Seções de status**: Permite visualizar separadamente usuários com status **True** e **False**.
 - **Navegação suave**: Scroll automático para seções específicas da página.
 - **Integração com API**: Consome uma API para obter os dados dos usuários.
