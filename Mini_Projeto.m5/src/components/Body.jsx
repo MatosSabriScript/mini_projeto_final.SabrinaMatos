@@ -1,5 +1,0 @@
-import './Body.css'
-
-export {
-    
-}
