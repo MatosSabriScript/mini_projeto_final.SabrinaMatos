@@ -1,19 +1,48 @@
+body {  
+  font-family: Arial, sans-serif;  
+  line-height: 1.6; /* Melhora a legibilidade do texto */  
+  background-color: #f0f0f0; /* Cor de fundo suave */  
+  margin: 0;  
+  padding: 10px;  
+}  
 
+section {  
+  padding: 400px;  
+  text-align: center;  
+  background-color: #f0eaeaab; /* Fundo branco para o conteúdo */  
+  border-radius: 118px; /* Cantos arredondados para um visual mais suave */  
+  box-shadow: 0 4px 100px rgba(0, 0, 0, 0.1); /* Sombra sutil */  
+  max-width: 800px; /* Largura máxima para o conteúdo */  
+  margin: 40px auto; /* Centraliza o section na página */  
+}  
 
-body {
-  font-family: Arial, sans-serif;
-}
-
-section {
-  padding: 40px;
-  text-align: center;
-}
 .buttons {  
-  margin-top: 10px;  
+  margin-top: 100px;  
   display: flex;  
-  justify-content: space-around; /* Adiciona espaço entre os botões */  
+  justify-content: space-around; /* Espaçamento entre os botões */  
   align-items: center; /* Alinha os botões verticalmente ao centro */  
 }  
+
+button {  
+  background-color: #007bff; /* Cor de fundo dos botões */  
+  color: rgb(224, 206, 206); /* Cor do texto dos botões */  
+  border: none; /* Remove a borda padrão */  
+  border-radius: 5px; /* Cantos arredondados para os botões */  
+  padding: 10px 20px; /* Espaçamento interno dos botões */  
+  cursor: pointer; /* Muda o cursor para indicar a interatividade */  
+  transition: background-color 0.3s, transform 0.2s; /* Transições suaves para hover */  
+}  
+
+button:hover {  
+  background-color: #0056b3; /* Cor do botão ao passar o mouse */  
+  transform: scale(1.05); /* Efeito leve de aumento ao passar o mouse */  
+}  
+
+  
+  button {  
+    width: 100%; /* Botões ocupam toda a largura em telas pequenas */  
+    margin-bottom: 10px; /* Espaçamento entre os botões */  
+  }  
 
 
 
@@ -24,13 +53,13 @@ button {
   color: white;
   border: none;
   padding: 10px 20px;
-  margin: 10px;
+  margin: 100px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #131414;
 }
 
 .cards-container {
