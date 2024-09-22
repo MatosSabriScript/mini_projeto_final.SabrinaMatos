@@ -36,7 +36,7 @@ export function App() {
       <Section
         id="projeto"
         title="Projeto 🚀"
-        content="Este projeto foi desenvolvido para exibir as informações da API de usuários temporários..."
+        content="Este projeto foi desenvolvido para exibir as informações da API de usuários temporários. A API permite a criação e o gerenciamento de usuários temporários, que possuem atributos específicos. Com ela, é possível adicionar novos usuários, listar todos os usuários existentes e filtrar aqueles com base no status complementado. Essa funcionalidade facilita a administração e o acesso às informações relevantes, proporcionando uma experiência mais eficiente para o gerenciamento de dados temporários."
       />
 
       <section id="cards">
