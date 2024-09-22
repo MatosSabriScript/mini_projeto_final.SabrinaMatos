@@ -24,7 +24,7 @@ Este é um projeto desenvolvido em React que faz a conexão com uma API para exi
 
    ```bash
    git clone https://github.com/MatosSabriScript/mini_projeto_final.SabrinaMatos.git
-   cd seu-repositorio
+   cd Mini_Projeto.m5
    ```
 
 2. **Instale as dependências**:
